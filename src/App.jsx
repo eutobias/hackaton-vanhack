@@ -32,7 +32,7 @@ class App extends React.Component {
     this.removeFromShopCart = this.removeFromShopCart.bind(this);
 
     this.state = {
-      isLoggedIn: true,
+      isLoggedIn: false,
       products: [],
       stores: [],
       shopcart: [],
